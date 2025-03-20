@@ -38,6 +38,14 @@
 - アクセシビリティアドオンを使用した検証
 - 視覚的リグレッションテストの実装
 
+### 1.6 ユーザー対話型開発アプローチ
+
+- デザインシステム構築の各フェーズでユーザーとの対話を重視
+- 要件やニーズを把握するための構造化された質問設計
+- ユーザーの回答に基づいたデザイン決定とカスタマイズ
+- 開発過程でのフィードバック収集と反映
+- プロトタイプや成果物に対する定期的なユーザーレビュー
+
 ## 2. プロジェクト構造
 
 ### 2.1 ルールの構成
@@ -217,6 +225,14 @@ src/
 - フィードバックの分析と優先順位付け
 - 改善計画への反映
 
+### 6.4 ユーザー対話型意思決定
+
+- 各設計フェーズでユーザーに対し明確な質問を設計
+- 質問はプロジェクトの具体的コンテキストに焦点を当てる
+- ユーザーの回答をもとにデザイン決定を行う
+- プロトタイプを通じた検証とさらなるフィードバック収集
+- 対話の履歴を記録し、意思決定の根拠として保存
+
 ## 7. デザインシステム導入と普及
 
 ### 7.1 導入戦略
@@ -248,6 +264,20 @@ src/
 - 既存コンポーネントの拡張方法
 - 互換性を保つための考慮事項
 - 拡張の優先順位付け
+
+## 9. 重要なリファレンス
+
+開発活動において、以下のドキュメントを参照してください：
+
+- **デザインシステムフロー**: `.cursor/flow/designSystemFlow.md`
+- **進捗状況**: `.cursor/memory/progress.md`
+- **開発コンテキスト**: `.cursor/memory/activeContext.md`
+- **デザイン原則**: `.cursor/rules/designPrinciples.md`
+- **カラーシステム**: `.cursor/rules/colorSystem.md`
+- **タイポグラフィシステム**: `.cursor/rules/typographySystem.md`
+- **スペーシングシステム**: `.cursor/rules/spacingSystem.md`
+- **コンポーネントリスト**: `.cursor/components/componentList.md`
+- **Storybookドキュメント**: `https://storybook.js.org/docs/react/get-started/introduction`
 
 ## 10. Storybookによるデザインシステム運用
 
@@ -289,18 +319,4 @@ src/
 - Storybookとアドオンの定期的な更新
 - ストーリーの網羅性と品質の定期チェック
 - 非推奨コンポーネントの管理とマイグレーション計画
-- ユーザーフィードバックの収集と改善
-
-## 9. 重要なリファレンス
-
-開発活動において、以下のドキュメントを参照してください：
-
-- **デザインシステムフロー**: `.cursor/flow/designSystemFlow.md`
-- **進捗状況**: `.cursor/memory/progress.md`
-- **開発コンテキスト**: `.cursor/memory/activeContext.md`
-- **デザイン原則**: `.cursor/rules/designPrinciples.md`
-- **カラーシステム**: `.cursor/rules/colorSystem.md`
-- **タイポグラフィシステム**: `.cursor/rules/typographySystem.md`
-- **スペーシングシステム**: `.cursor/rules/spacingSystem.md`
-- **コンポーネントリスト**: `.cursor/components/componentList.md`
-- **Storybookドキュメント**: `https://storybook.js.org/docs/react/get-started/introduction` 
+- ユーザーフィードバックの収集と改善 
