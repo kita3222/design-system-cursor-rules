@@ -46,7 +46,7 @@ design-system/
 
 ## 始め方
 
-1. リポジトリをクローン
+1. Use this template からリポジトリを新たに作成
 2. `.cursor` ディレクトリの内容を確認し、デザインシステム開発ルールを把握
 3. `.cursor/flow/designSystemFlow.md` に定義された開発フローに従ってデザインシステムを構築する。
 4. `npm run storybook` を実行して生成したコンポーネントを確認し、検証を行う。
